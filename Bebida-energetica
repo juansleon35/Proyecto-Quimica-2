@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendiendo las Bebidas Energizantes</title>
+    <!-- Carga de Tailwind CSS para un diseño moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles to enhance the visual appeal and use the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc; /* Light gray background */
+        }
+        .container-card {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+        }
+        .quiz-option:hover {
+            background-color: #ebf8ff; /* Light blue on hover */
+            border-color: #4299e1;
+        }
+        .details-summary {
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s;
+        }
+        .details-summary:hover {
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto container-card rounded-xl p-6 md:p-10 mb-12">
+
+        <!-- Header and Introduction -->
+        <header class="text-center mb-10 border-b pb-4">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-800">
+                Clase Rápida: Entendiendo las Bebidas Energizantes
+            </h1>
+            <p class="mt-3 text-xl text-gray-600">
+                Líquidos sin alcohol, también llamados hipertónicas, neurotizantes o psicoactivas.
+            </p>
+            <p class="mt-2 text-sm text-gray-500">
+                Surgieron en Asia y Latinoamérica, popularizándose globalmente después del año 2000.
+            </p>
+
+            <!-- Enlace modificado a Google -->
+            <p class="mt-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgJLaGbTskK-dKhcvAuLfCT5ZoKp4vx9y7lhRUdK4SF4VB6w/viewform?usp=publish-editor" class="text-blue-600 underline" target="_blank">Visita Google</a>
+            </p>
+
+        </header>
+
+        <!-- Main Content Section: How They Work -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-l-4 border-blue-500 pl-3">
+                I. ¿Cómo Funcionan y de Qué Están Hechas?
+            </h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Las bebidas energizantes actúan directamente sobre el <strong class="text-blue-600">Sistema Nervioso Central (SNC)</strong> gracias a sus sustancias psicoactivas. Su objetivo es disminuir temporalmente la sensación de fatiga y agotamiento.
+            </p>
+            <div class="p-5 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
+                <p class="font-semibold text-yellow-800">
+                    💡 Dato Importante:
+                </p>
+                <p class="text-sm text-yellow-700 mt-1">
+                    No eliminan la fatiga realmente, solo la inhiben temporalmente. Esto causa el "bajón" cuando el efecto pasa.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interactive Component Section -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-gray-800 mb-5 border-l-4 border-gray-400 pl-3">
+                Los Componentes Clave
+            </h3>
+
+            <!-- Component 1: Cafeína -->
+            <details class="mb-4 details-summary bg-blue-50 rounded-xl">
+                <summary class="font-semibold text-xl text-blue-700 flex justify-between items-center">
+                    Cafeína (El Estímulo Principal) 
+                    <span class="text-blue-500 text-sm">Toca para ver detalles</span>
+                </summary>
+                <div class="mt-3 p-4 bg-white rounded-lg border border-blue-200">
+                    <p class="text-gray-700">
+                        <strong class="text-blue-600">Mecanismo:</strong> Es un alcaloide que inhibe los neurotransmisores que nos causan cansancio o sueño. Eleva los niveles de noradrenalina y dopamina, mejorando la concentración.
+                    </p>
+                    <p class="text-sm text-gray-500 mt-2">
+                        La EFSA acepta que 75 mg en adultos aumenta el rendimiento cognitivo y mental.
+                    </p>
+                </div>
+            </details>
+
+            <!-- Component 2: Azúcares y Carbohidratos -->
+            <details class="mb-4 details-summary bg-green-50 rounded-xl">
+                <summary class="font-semibold text-xl text-green-700 flex justify-between items-center">
+                    Azúcares y Carbohidratos 
+                    <span class="text-green-500 text-sm">Toca para ver detalles</span>
+                </summary>
+                <div class="mt-3 p-4 bg-white rounded-lg border border-green-200">
+                    <p class="text-gray-700">
+                        Proporcionan <strong class="text-green-600">energía rápida</strong> al cuerpo (glucosa y otros azúcares). Las versiones dietéticas usan sustitutos como el aspartamo.
+                    </p>
+                </div>
+            </details>
+
+            <!-- Component 3: Taurina -->
+            <details class="mb-4 details-summary bg-purple-50 rounded-xl">
+                <summary class="font-semibold text-xl text-purple-700 flex justify-between items-center">
+                    Taurina 
+                    <span class="text-purple-500 text-sm">Toca para ver detalles</span>
+                </summary>
+                <div class="mt-3 p-4 bg-white rounded-lg border border-purple-200">
+                    <p class="text-gray-700">
+                        Ácido orgánico presente en la mayoría (aprox. 1000 mg/250 ml).
+                    </p>
+                    <p class="text-sm text-purple-600 mt-2 font-semibold">
+                        La EFSA ha concluido que NO existe una relación de causa-efecto entre su consumo y supuestos beneficios como protección inmunológica o mejora cognitiva.
+                    </p>
+                </div>
+            </details>
+
+            <!-- Component 4: Vitaminas del Grupo B -->
+            <details class="mb-4 details-summary bg-indigo-50 rounded-xl">
+                <summary class="font-semibold text-xl text-indigo-700 flex justify-between items-center">
+                    Vitaminas del Grupo B 
+                    <span class="text-indigo-500 text-sm">Toca para ver detalles</span>
+                </summary>
+                <div class="mt-3 p-4 bg-white rounded-lg border border-indigo-200">
+                    <p class="text-gray-700">
+                        Cruciales para el <strong class="text-indigo-600">metabolismo energético</strong>. Son hidrosolubles; el exceso se excreta por la orina.
+                    </p>
+                    <p class="text-sm text-gray-500 mt-2">
+                        Una lata puede contener hasta el 300% o 400% de la Dosis Diaria Recomendada (DDR).
+                    </p>
+                </div>
+            </details>
+
+        </section>
+
+        <!-- Risks Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-l-4 border-red-500 pl-3">
+                II. Riesgos y Uso Responsable
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Risk Card 1: Caffeine Intoxication -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-200">
+                    <h4 class="font-bold text-xl text-red-700 mb-3">Riesgos por Cafeína</h4>
+                    <p class="text-gray-700 mb-2">
+                        Intoxicación aguda (a partir de 300 mg) puede causar:
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 text-sm text-red-800 ml-4">
+                        <li>Inquietud, nerviosismo e insomnio.</li>
+                        <li>Ritmo cardíaco irregular.</li>
+                        <li>Trastornos gastrointestinales.</li>
+                    </ul>
+                </div>
+
+                
